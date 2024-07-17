@@ -1,0 +1,36 @@
+package desafio_POO_bootcamp;
+
+public abstract class Conteudo {
+	
+	protected static final double XP_PADRAO  = 10d;
+	
+	protected String titulo;
+	protected String descricao;
+	
+	public double calcularXP() {
+		return XP_PADRAO + 20d;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	
+	
+	
+	
+}
+		
+		
+
